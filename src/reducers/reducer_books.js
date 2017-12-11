@@ -21,9 +21,9 @@
 
   export default function() {
     return [
-      { title: 'Javascript: The Good Parts'},
-      { title: 'Javascript For Kids'},
-      { title: 'Learn To Code'},
-      { title: 'The Power of Now'}
+      { title: 'Javascript: The Good Parts', pages: 101},
+      { title: 'Javascript For Kids', pages: 54},
+      { title: 'Learn To Code', pages: 87},
+      { title: 'The Power of Now', pages: 134}
     ]
   }

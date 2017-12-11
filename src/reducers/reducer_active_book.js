@@ -5,6 +5,8 @@
 // Go to index.js in Reducers folder and import to combineReducers call
 
 // This ActiveBook Reducer produces a new piece of state everytime the BOOK_SELECTED action is triggered.
+// Set (this piece of) state = null because when App first launches, there is no active book selected.
+
 export default function (state = null, action){
   switch(action.type) {
     // Whenever the BOOK_SELECTED action is triggered
